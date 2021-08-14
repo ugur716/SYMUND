@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-14T22:48:55.698Z",
+        "line": 24,
+        "name": "Verify that user can see valid valid placeholders on Username and Password fields",
+        "description": "",
+        "id": ";verify-that-user-can-see-valid-valid-placeholders-on-username-and-password-fields;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3400000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user on the login page",
+            "match": {
+              "location": "com.symund.step_definitions.LoginStepdefs.theUserOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\"Username or email\" place holders should be seen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username or email\"",
+                  "offset": 0
+                }
+              ],
+              "location": "com.symund.step_definitions.LoginStepdefs.placeHoldersShouldBeSeen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SYMU-368"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-14T22:48:59.238Z",
+        "line": 25,
+        "name": "Verify that user can see valid valid placeholders on Username and Password fields",
+        "description": "",
+        "id": ";verify-that-user-can-see-valid-valid-placeholders-on-username-and-password-fields;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 753000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user on the login page",
+            "match": {
+              "location": "com.symund.step_definitions.LoginStepdefs.theUserOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\"Password\" place holders should be seen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 0
+                }
+              ],
+              "location": "com.symund.step_definitions.LoginStepdefs.placeHoldersShouldBeSeen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SYMU-368"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AC6.feature",
+    "tags": []
+  }
+]
